@@ -15,8 +15,12 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::get('/', [MainController::class, 'index'])->name('home');
+Route::get('/', [MainController::class, 'index']);
 
 Route::get('/laravel', function () {
     return view('welcome');
+});
+
+Route::get('/test2', function () {
+    return view('test2');
 });
