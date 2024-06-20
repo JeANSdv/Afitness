@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>poka</h1>
+    <h1>poka123</h1>
 
     @yield('content')
 
