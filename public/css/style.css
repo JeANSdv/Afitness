@@ -1,0 +1,26 @@
+:root{
+    --color1: #3D3D3D;
+    --color2: #BBCE00;
+    --color3: #E0BF00;
+}
+
+header {
+    background: var(--color1);
+
+}
+
+.nav-link {
+    color: rgb(194, 194, 194);
+}
+
+.nav-link:hover {
+    color: rgb(238, 238, 238);
+}
+
+.nav-link:active {
+    color: white;
+}
+
+.nav-link:focus {
+    color: white;
+}
