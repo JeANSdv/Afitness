@@ -14,41 +14,42 @@
 
 <body>
 
+
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/img/logo.png" alt="ApexFitness" width="70">
+            <div class="container">
+                <a class=" navbar-brand" href="#">
+                    <img src="/img/logo-light.png" alt="ApexFitness" width="150">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Переключатель навигации">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Главная</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Услуги</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Спортивное питание</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Тренеры</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Отзывы</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">О нас</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Контакты</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Профиль</a>
                         </li>
                     </ul>
@@ -56,6 +57,7 @@
             </div>
         </nav>
     </header>
+
 
     @yield('content')
 
