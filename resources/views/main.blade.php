@@ -12,13 +12,12 @@
 
 
 
-<body>
-
+<body class="main-bg">
 
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg py-3">
             <div class="container">
-                <a class=" navbar-brand" href="#">
+                <a class=" navbar-brand" href="/">
                     <img src="/img/logo-light.png" alt="ApexFitness" width="150">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,7 +28,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Главная</a>
+                            <a class="nav-link" href="/">Главная</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Услуги</a>
@@ -57,7 +56,6 @@
             </div>
         </nav>
     </header>
-
 
     @yield('content')
 

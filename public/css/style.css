@@ -4,6 +4,8 @@
     --color3: #E0BF00;
 }
 
+/* Хэдер */
+
 header {
     background: var(--color1);
 }
@@ -23,3 +25,12 @@ header {
 .nav-link:focus {
     color: white;
 }
+
+/* Фон */
+
+.main-bg {
+    background: var(--color1);
+}
+
+/* Изображения */
+

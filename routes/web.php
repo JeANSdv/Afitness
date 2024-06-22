@@ -15,7 +15,7 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', [MainController::class, 'index'])->name('mainpage');
 
 Route::get('/laravel', function () {
     return view('welcome');
