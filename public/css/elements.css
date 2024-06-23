@@ -1,0 +1,11 @@
+.cta-b {
+    background: rgba(0, 0, 0, .5);
+    border: 3px solid var(--color2);
+    color: white;
+}
+
+.cta-b:hover {
+    background: rgba(0, 0, 0, .7);
+    border: 3px solid var(--color25);
+    color: white;
+}
