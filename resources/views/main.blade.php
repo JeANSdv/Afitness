@@ -16,7 +16,7 @@
 <body class="main-bg">
 
     <header>
-        <nav class="navbar navbar-expand-lg py-3">
+        <nav class="navbar navbar-expand-lg py-3 border-bottom border-dark">
             <div class="container">
                 <a class=" navbar-brand" href="/">
                     <img src="/img/logo-light.png" alt="ApexFitness" width="150">
@@ -50,7 +50,7 @@
                             <a class="nav-link" href="#">Контакты</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Профиль</a>
+                            <a class="nav-link" href="/login">Профиль</a>
                         </li>
                     </ul>
                 </div>

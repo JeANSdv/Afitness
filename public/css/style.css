@@ -33,5 +33,9 @@ header {
     background: var(--color1);
 }
 
+.seco-bg {
+    background: #474747;
+}
+
 /* Изображения */
 

@@ -17,10 +17,10 @@ return new class extends Migration {
             $table->string('third_name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->string('avatar-path');
+            $table->string('avatar-path')->default('none');
             $table->date('birth-date');
-            $table->string('sex', 10);
-            $table->string('phone_number', 20);
+            $table->string('sex', 10)->default('unspec');
+            $table->string('phone_number', 20)->default('unspec');
             $table->bigInteger('role_id')->unsigned();
             $table->rememberToken();
             $table->timestamps();

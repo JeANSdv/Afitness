@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
@@ -21,6 +22,9 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/test2', function () {
-    return view('test2');
-});
+Route::view('/login', 'personal.auth');
+
+Route::view('/personal', 'personal.personal')->middleware('auth');
+
+Route::get('/register', [RegisterController::class, 'create'])->name('register');
+Route::post('/register', [RegisterController::class, 'store']);
