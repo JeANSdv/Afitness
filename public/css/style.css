@@ -111,4 +111,14 @@ header {
     background-color: #3d3d3d; 
 }
 
+.card {
+    border: 2px solid #bbce00; 
+    background-color: transparent;  
+    height: 250px; 
+    width: 290px; 
+    margin-bottom: 30px;
+}
+.card-title {
+    color: #bbce00;
+}
 
