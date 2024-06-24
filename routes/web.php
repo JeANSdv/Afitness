@@ -25,6 +25,7 @@ Route::get('/laravel', function () {
 });
 
 Route::view('/personal', 'personal.personal')->middleware('auth')->name('personal');
+Route::get('/personal', [RegisterController::class, 'index'])->middleware('auth')->name('personal');
 
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
