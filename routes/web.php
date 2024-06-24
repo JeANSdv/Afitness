@@ -36,3 +36,5 @@ Route::view('/about', 'about');
 Route::view('/review', 'companyReview');
 Route::view('/food', 'foodproducts');
 
+Route::view('/category', 'serviceCategories');
+

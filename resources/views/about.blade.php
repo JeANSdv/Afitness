@@ -20,43 +20,33 @@
 </div>
 
 <!-- Новости -->
-<div class="container my-3">
-    <div class="row">
-        <!-- Новостная карточка 1 -->
-        <div class="col-md-4 col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
-                    <p class="card-text">Главная цель — помочь людям изменить их жизнь и здоровье к лучшему. Мы хотим
-                        чтобы спорт был доступен для всех, вне зависимости от социального положения, пола и возраста.
-                    </p>
-                </div>
+<div class="container mt-5">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <div class="trainer-card w-100 h-100 bg-transparent text-white bg-dark border p-3 mb-5">
+                <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
+                <p class="card-text mt-3">Наш приоритет — оптимальное соотношения цены и качества
+                    предоставляемых услуг.
+                    Мы стремимся, чтобы фитнес-услуги становились более доступными для людей по всей стране.</p>
             </div>
         </div>
-        <!-- Новостная карточка 2 -->
-        <div class="col-md-4 col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
-                    <p class="card-text">Наш приоритет — оптимальное соотношения цены и качества предоставляемых услуг.
-                        Мы стремимся, чтобы фитнес-услуги становились более доступными для людей по всей стране.
-
-                    </p>
-                </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <div class="trainer-card w-100 h-100 bg-transparent text-white bg-dark border p-3 mb-5">
+                <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
+                <p class="card-text mt-3">Наш приоритет — оптимальное соотношения цены и качества
+                    предоставляемых услуг.
+                    Мы стремимся, чтобы фитнес-услуги становились более доступными для людей по всей стране.</p>
             </div>
         </div>
-        <!-- Новостная карточка 3 -->
-        <div class="col-md-4 col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
-                    <p class="card-text">Мы реализуем специальные спортивные программы для пенсионеров, воспитанников
-                        детских домов, людей с ограниченными возможностями.
-
-                    </p>
-                </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <div class="trainer-card w-100 h-100 bg-transparent text-white bg-dark border p-3 mb-5">
+                <h5 class="card-title">МИССИЯ APEX FITNESS</h5>
+                <p class="card-text mt-3">Наш приоритет — оптимальное соотношения цены и качества
+                    предоставляемых услуг.
+                    Мы стремимся, чтобы фитнес-услуги становились более доступными для людей по всей стране.</p>
             </div>
         </div>
     </div>
 </div>
+
 @endsection

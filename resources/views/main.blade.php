@@ -32,7 +32,7 @@
                             <a class="nav-link" href="/">Главная</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Услуги</a>
+                            <a class="nav-link" href="/category">Услуги</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="/food">Спортивное питание</a>

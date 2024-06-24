@@ -33,9 +33,12 @@ header {
     background: var(--color1);
 }
 
-
 .seco-bg {
     background: #474747;
+}
+
+.op-bl-bg {
+    background: rgba(0, 0, 0, .3);
 }
 
 /* nco */
