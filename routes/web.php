@@ -31,3 +31,8 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/login', [LoginController::class, 'create'])->middleware('guest')->name('login');
 Route::post('/login', [LoginController::class, 'store']);
 Route::get('/logout', [LoginController::class, 'destroy'])->middleware('auth')->name('logout');
+
+Route::view('/about', 'about');
+Route::view('/review', 'companyReview');
+Route::view('/food', 'foodproducts');
+

@@ -35,16 +35,16 @@
                             <a class="nav-link" href="#">Услуги</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Спортивное питание</a>
+                            <a class="nav-link" href="/food">Спортивное питание</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Тренеры</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Отзывы</a>
+                            <a class="nav-link" href="/review">Отзывы</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">О нас</a>
+                            <a class="nav-link" href="/about">О нас</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="#">Контакты</a>

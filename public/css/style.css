@@ -33,9 +33,52 @@ header {
     background: var(--color1);
 }
 
+
 .seco-bg {
     background: #474747;
 }
 
-/* Изображения */
+/* nco */
+
+.jumbotron {
+    background-size: cover; 
+    background-position: center; 
+    padding: 0px 0px 54px 0px;
+    color: #fff; 
+    text-align: center; 
+}
+
+.jumbotron h1 {
+    font-size: 3rem; 
+}
+
+.jumbotron p {
+    margin-top: 54px;
+    font-size: 1.5rem; 
+}
+
+.card-body {
+    background-color: transparent; 
+    color: #fff; 
+}
+
+.product-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent; 
+    color: white;
+    border: 2px solid #bbce00; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.review-card {
+    margin-top: 100px; 
+}
 
