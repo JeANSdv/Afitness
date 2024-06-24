@@ -39,6 +39,6 @@ Route::view('/food', 'foodproducts');
 Route::view('/trainer', 'instructors');
 Route::view('/contact', 'contacts');
 
-Route::view('/category', 'serviceCategories');
 Route::get('/category', [ServicesController::class, 'categories']);
+Route::get('/category/one', [ServicesController::class, 'category']);
 
