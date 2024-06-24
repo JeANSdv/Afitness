@@ -12,7 +12,9 @@ class UserController extends Controller
     {
         $userId = Auth::id();
 
-        $user = DB::table('users')->where('user_id', '=', $userId)->get();
+        $user = DB::table('users')->where('user_id', '=', $userId)->first();
+
+        // dd($user);
 
         return view('personal.personal', ['user' => $user]);
     }

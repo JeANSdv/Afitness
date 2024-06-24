@@ -6,7 +6,7 @@
 
 <div class="container mt-5 text-white ">
     <div class="kabinet ">
-        <h1 class="display-4 d-flex justify-content-center align-items-center">Добро пожаловать, Иван!</h1>
+        <h1 class="display-4 d-flex justify-content-center align-items-center">Добро пожаловать, {{$user->name}}!</h1>
         <p class="lead d-flex justify-content-center align-items-center">Здесь вы можете управлять своими данными и
             абонементами.</p>
     </div>
@@ -15,10 +15,10 @@
         <div class="col-md-6 text-white">
             <h3>Личная информация</h3>
             <ul>
-                <li><strong>Имя:</strong> Иван Иванов</li>
-                <li><strong>Email:</strong> ivan@example.com</li>
-                <li><strong>Телефон:</strong> +7 (123) 456-78-90</li>
-                <li><strong>Дата рождения:</strong> 01.01.1990</li>
+                <li><strong>ФИО:</strong> {{$user->name}} {{$user->second_name}} {{$user->third_name}}</li>
+                <li><strong>Email:</strong> {{$user->email}}</li>
+                <li><strong>Телефон:</strong> {{$user->phone_number}}</li>
+                <li><strong>Дата рождения:</strong> {{$user->birth_date}}</li>
             </ul>
         </div>
         <div class="col-md-6 text-white">
@@ -36,6 +36,4 @@
         </div>
     </div>
 </div>
-
-<<<<<<< HEAD=======>>>>>>> 08b340eb00208e4d33478db002a3df13a96e3d21
-    @endsection
+@endsection

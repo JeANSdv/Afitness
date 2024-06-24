@@ -5,6 +5,7 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +25,7 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::view('/personal', 'personal.personal')->middleware('auth')->name('personal');
-Route::get('/personal', [RegisterController::class, 'index'])->middleware('auth')->name('personal');
+Route::get('/personal', [UserController::class, 'index'])->middleware('auth')->name('personal');
 
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
