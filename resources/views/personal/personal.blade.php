@@ -7,7 +7,8 @@
 <div class="container mt-5 text-white ">
     <div class="kabinet ">
         <h1 class="display-4 d-flex justify-content-center align-items-center">Добро пожаловать, Иван!</h1>
-        <p class="lead d-flex justify-content-center align-items-center">Здесь вы можете управлять своими данными и абонементами.</p>
+        <p class="lead d-flex justify-content-center align-items-center">Здесь вы можете управлять своими данными и
+            абонементами.</p>
     </div>
 
     <div class="row">
@@ -28,12 +29,13 @@
                 <li><strong>Тренировок осталось:</strong> 15</li>
             </ul>
         </div>
-        
+
         <div class="conatainer text-white">
-        <a class="col-4 col-sm-4 col-lg-2 btn cta-b rounded-3 py-2" href="{{ route('logout') }}">Выйти из аккаунта</a>
+            <a class="col-4 col-sm-4 col-lg-2 btn cta-b rounded-3 py-2" href="{{ route('logout') }}">Выйти из
+                аккаунта</a>
         </div>
     </div>
 </div>
 
-
-@endsection
+<<<<<<< HEAD=======>>>>>>> 08b340eb00208e4d33478db002a3df13a96e3d21
+    @endsection
