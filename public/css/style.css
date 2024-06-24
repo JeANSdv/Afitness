@@ -102,3 +102,7 @@ header {
     height: 250px;
     border-radius: 10px;
 }
+
+.contact {
+    background-color: #3d3d3d; 
+}
