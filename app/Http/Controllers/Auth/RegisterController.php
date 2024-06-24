@@ -30,7 +30,7 @@ class RegisterController extends Controller
             'name' => $request->name,
             'second_name' => $request->sname,
             'third_name' => $request->tname,
-            'birth-date' => $request->bdate,
+            'birth_date' => $request->bdate,
             'email' => $request->email,
             'password' => $request->password,
         ]);

@@ -16,7 +16,7 @@ class User extends Authenticatable
 
     protected $attributes = [
         'role_id' => 1,
-        'avatar-path' => 'some standart avatar',
+        'avatar_path' => 'some standart avatar',
     ];
 
     protected $fillable = [
@@ -27,7 +27,7 @@ class User extends Authenticatable
         'password',
         'sex',
         'phone_number',
-        'birth-date',
+        'birth_date',
     ];
 
     protected $hidden = [

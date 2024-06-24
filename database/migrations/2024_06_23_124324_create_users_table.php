@@ -17,8 +17,8 @@ return new class extends Migration {
             $table->string('third_name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->string('avatar-path');
-            $table->date('birth-date');
+            $table->string('avatar_path');
+            $table->date('birth_date');
             $table->string('sex', 10)->default('unspec');
             $table->string('phone_number', 20)->default('unspec');
             $table->bigInteger('role_id')->unsigned();
