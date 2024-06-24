@@ -47,7 +47,7 @@
                             <a class="nav-link" href="/about">О нас</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Контакты</a>
+                            <a class="nav-link" href="/contact">Контакты</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="/login">Профиль</a>

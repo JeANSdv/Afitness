@@ -1,9 +1,10 @@
 <?php
 
-use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +37,8 @@ Route::view('/about', 'about');
 Route::view('/review', 'companyReview');
 Route::view('/food', 'foodproducts');
 Route::view('/trainer', 'instructors');
+Route::view('/contact', 'contacts');
 
 Route::view('/category', 'serviceCategories');
+Route::get('/category', [ServicesController::class, 'categories']);
 
