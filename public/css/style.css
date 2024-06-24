@@ -110,3 +110,20 @@ header {
 .kabinet {
     background-color: #3d3d3d; 
 }
+
+.card {
+    border: 2px solid #bbce00; 
+    background-color: transparent;  
+    height: 250px; 
+    width: 290px; 
+    margin-bottom: 30px;
+}
+.card-body {
+    color: #fff; 
+}
+.card-title {
+    color: #bbce00;
+}
+.review-card {
+    margin-top: 100px; 
+}
