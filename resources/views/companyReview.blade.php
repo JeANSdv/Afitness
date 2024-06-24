@@ -8,7 +8,7 @@
     <div class="row review-card">
         <!-- Отзыв 1 -->
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Анна Иванова</h5>
                     <p class="card-text">"Обстановка в клубе очень приятная — чисто, уютно, все тренажеры новые и
@@ -18,7 +18,7 @@
         </div>
         <!-- Отзыв 2 -->
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Дмитрий Петров</h5>
                     <p class="card-text">"Цены на абонементы адекватные, особенно учитывая качество обслуживания и
@@ -28,7 +28,7 @@
         </div>
         <!-- Отзыв 3 -->
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Елена Смирнова</h5>
                     <p class="card-text">"Вежливый персонал на ресепшене сразу помог с выбором подходящего абонемента,
@@ -38,7 +38,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Алексей Козлов</h5>
                     <p class="card-text">"Я остался доволен сервисом, выбором тренировок и обстановкой в клубе.
@@ -49,7 +49,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Ольга Морозова</h5>
                     <p class="card-text">"Отличный выбор для тех, кто ценит комфорт и качество сервиса.
@@ -59,7 +59,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Игорь Васильев</h5>
                     <p class="card-text">"В 'ApexFitness' просто отличные тренажеры и занятия.
@@ -70,7 +70,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Наталья Новикова</h5>
                     <p class="card-text">"Клуб супер! Я уже несколько лет занимаюсь здесь, и каждый раз прихожу с
@@ -81,7 +81,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Сергей Федоров</h5>
                     <p class="card-text">"Очень рад, что выбрал 'ApexFitness'.
@@ -92,7 +92,7 @@
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-            <div class="card">
+            <div class="card cardall">
                 <div class="card-body">
                     <h5 class="card-title">Мария Лебедева</h5>
                     <p class="card-text">"Благодаря качественным услугам и дружелюбной атмосфере здесь приятно проводить
