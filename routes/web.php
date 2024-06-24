@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
@@ -22,10 +23,11 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::view('/login', 'personal.auth')->middleware('guest')->name('login');
-;
-
 Route::view('/personal', 'personal.personal')->middleware('auth')->name('personal');
 
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/login', [LoginController::class, 'create'])->middleware('guest')->name('login');
+Route::post('/login', [LoginController::class, 'store']);
+Route::get('/logout', [LoginController::class, 'destroy'])->middleware('auth')->name('logout');
