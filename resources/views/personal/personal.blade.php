@@ -1,9 +1,9 @@
 @extends('main')
 
-@section('title', 'Вход')
+@section('title', 'Личный кабинет')
 
 @section('content')
 
-<h1>PESRSONAL</h1>
+<h1>PERSONAL</h1>
 
 @endsection

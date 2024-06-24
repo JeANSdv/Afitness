@@ -4,7 +4,6 @@ use App\Http\Controllers\Auth\RegisterController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,15 +15,17 @@ use App\Http\Controllers\MainController;
 |
 */
 
+
 Route::get('/', [MainController::class, 'index'])->name('mainpage');
 
 Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::view('/login', 'personal.auth');
+Route::view('/login', 'personal.auth')->middleware('guest')->name('login');
+;
 
-Route::view('/personal', 'personal.personal')->middleware('auth');
+Route::view('/personal', 'personal.personal')->middleware('auth')->name('personal');
 
-Route::get('/register', [RegisterController::class, 'create'])->name('register');
+Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
