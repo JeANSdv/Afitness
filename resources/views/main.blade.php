@@ -38,7 +38,7 @@
                             <a class="nav-link" href="/food">Спортивное питание</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
-                            <a class="nav-link" href="#">Тренеры</a>
+                            <a class="nav-link" href="/trainer">Тренеры</a>
                         </li>
                         <li class="nav-item px-xxl-4 px-xl-3 px-lg-2">
                             <a class="nav-link" href="/review">Отзывы</a>
