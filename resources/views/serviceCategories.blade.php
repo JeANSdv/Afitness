@@ -13,7 +13,7 @@
             </div>
             <div class="col-9 text-center">
                 <p class="">{{ $category->description }}</p>
-                <a class="col-6 col-sm-6 col-lg-2 btn cta-b rounded-3 py-2" href="#">Выбрать услугу</a>
+                <a class="col-6 col-sm-6 col-lg-2 btn cta-b rounded-3 py-2" href="/category/one">Выбрать услугу</a>
             </div>
         </div>
     @endforeach
