@@ -14,7 +14,7 @@ return new class extends Migration {
             $table->id('subscription_id');
             $table->float('price', 8, 2);
             $table->timestamps();
-            $table->foreign('subscription_id')->references('id')->on('subscription');
+            $table->foreign('subscription_id')->references('subscription_id')->on('subscription');
         });
     }
 
