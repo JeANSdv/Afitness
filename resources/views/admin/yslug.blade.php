@@ -7,7 +7,8 @@
 <div class="sidebar bg-light">
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#addServiceModal">Добавить услугу</a>
+      <a class="nav-link text-black" href="#" data-toggle="modal" data-target="#addServiceModal">Добавить
+        услугу</a>
     </li>
   </ul>
 </div>

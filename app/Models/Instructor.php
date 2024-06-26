@@ -8,14 +8,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Instructor extends Model
 {
-
+    protected $primaryKey = 'instructor_id';
     protected $table = 'instructors';
 
     protected $fillable = [
         'user_id',
         'description',
-        'passport',
-        'time'
+        'passport'
     ];
     //связи
     public function user()

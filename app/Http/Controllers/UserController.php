@@ -18,4 +18,14 @@ class UserController extends Controller
 
         return view('personal.personal', ['user' => $user]);
     }
+    public function info()
+    {
+        $userId = Auth::id();
+
+        $user = DB::table('users')->where('user_id', '=', $userId)->first();
+
+        // dd($user);
+
+        return view('personal.personalinfo', ['user' => $user]);
+    }
 }

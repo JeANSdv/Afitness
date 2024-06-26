@@ -7,7 +7,7 @@
 <div class="sidebar bg-light">
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#addScheduleModal">Добавить
+      <a class="nav-link text-black" href="#" data-toggle="modal" data-target="#addScheduleModal">Добавить
         расписание</a>
     </li>
   </ul>
@@ -15,7 +15,7 @@
 
 <!-- Main content -->
 <div class="main-content">
-  <h2 class="text-center mb-4 text-white">Управление расписанием тренеров</h2>
+  <h2 class="text-center mb-4 text-black">Управление расписанием тренеров</h2>
 
   <!-- Schedule List -->
   <div class="row">

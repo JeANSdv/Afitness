@@ -9,14 +9,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class InstructorReview extends Model
 {
 
-
+    protected $primaryKey = 'review_id';
     protected $table = 'instructor_reviews';
 
     protected $fillable = [
         'instructor_id',
         'review',
         'rating',
-        'time',
         'user_id'
     ];
 

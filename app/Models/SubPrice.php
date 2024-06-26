@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class SubPrice extends Model
 {
-
     protected $table = 'sub_price';
+    protected $primaryKey = 'subscription_id';
     protected $fillable = ['subscription_id', 'price'];
 
     public function subscription(): BelongsTo

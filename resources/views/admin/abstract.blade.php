@@ -9,20 +9,20 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #3d3d3d;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="sidebar bg-light">
+    <div class="sidebar bg-white">
         <ul class="nav flex-column">
-            <li class="nav-item row text-white">
-                <a class="nav-link active text-white" href="/adm/usr">Пользователи</a>
-                <a class="nav-link active text-white" href="/adm/srv">Услуги</a>
-                <a class="nav-link active text-white" href="/adm/shf">График</a>
-                <a class="nav-link active text-white" href="/adm/sbs">Абонимент</a>
+            <li class="nav-item row text-black">
+                <a class="nav-link active text-black" href="/adm/usr">Пользователи</a>
+                <a class="nav-link active text-black" href="/adm/srv">Услуги</a>
+                <a class="nav-link active text-black" href="/adm/shf">График</a>
+                <a class="nav-link active text-black" href="/adm/sbs">Абонимент</a>
             </li>
         </ul>
     </div>

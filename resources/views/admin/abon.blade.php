@@ -7,14 +7,14 @@
 <div class="sidebar bg-light">
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#addSubscriptionModal">Добавить
+      <a class="nav-link text-black" href="#" data-toggle="modal" data-target="#addSubscriptionModal">Добавить
         абонемент</a>
     </li>
   </ul>
 </div>
 <!-- Main content -->
-<div class="main-content">
-  <h2 class="text-center mb-4 text-white">Управление абонементами</h2>
+<div class="main-content ">
+  <h2 class="text-center mb-4 text-black">Управление абонементами</h2>
 
   <!-- Subscription List -->
   <div class="row">

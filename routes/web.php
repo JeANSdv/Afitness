@@ -26,6 +26,7 @@ Route::get('/laravel', function () {
 });
 
 Route::get('/personal', [UserController::class, 'index'])->middleware('auth')->name('personal');
+Route::get('/personal/info', [UserController::class, 'info'])->middleware('auth');
 
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
@@ -43,6 +44,7 @@ Route::view('/contact', 'contacts');
 Route::get('/category', [ServicesController::class, 'categories']);
 Route::get('/category/{id}', [ServicesController::class, 'category']);
 Route::get('/category/services/{id}', [ServicesController::class, 'service']);
+Route::post('/subscription/{subId}', [ServicesController::class, 'purchase'])->middleware('auth');
 
 Route::view('/adm/usr', 'admin.user');
 Route::view('/adm/srv', 'admin.yslug');

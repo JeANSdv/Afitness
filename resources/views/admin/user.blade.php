@@ -7,14 +7,14 @@
 <div class="sidebar bg-light">
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#addUserModal">Добавить пользователя</a>
+      <a class="nav-link text-black" href="#" data-toggle="modal" data-target="#addUserModal">Добавить пользователя</a>
     </li>
   </ul>
 </div>
 
 <!-- Main content -->
 <div class="main-content">
-  <h2 class="text-center mb-4 text-white">Управление пользователями</h2>
+  <h2 class="text-center mb-4 text-black">Управление пользователями</h2>
 
   <!-- User List -->
   <div class="row">
