@@ -16,13 +16,13 @@
 
 <body>
 
-    <div class="sidebar bg-light bg-dark">
+    <div class="sidebar bg-light">
         <ul class="nav flex-column">
-            <li class="nav-item row">
-                <a class="nav-link active" href="/adm/usr">Пользователи</a>
-                <a class="nav-link active" href="/adm/srv">Услуги</a>
-                <a class="nav-link active" href="/adm/shf">График</a>
-                <a class="nav-link active" href="/adm/sbs">Абонимент</a>
+            <li class="nav-item row text-white">
+                <a class="nav-link active text-white" href="/adm/usr">Пользователи</a>
+                <a class="nav-link active text-white" href="/adm/srv">Услуги</a>
+                <a class="nav-link active text-white" href="/adm/shf">График</a>
+                <a class="nav-link active text-white" href="/adm/sbs">Абонимент</a>
             </li>
         </ul>
     </div>

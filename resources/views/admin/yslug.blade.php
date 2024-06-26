@@ -4,10 +4,10 @@
 
 @section('content')
 
-<div class="sidebar bg-light bg-dark">
+<div class="sidebar bg-light">
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link" href="#" data-toggle="modal" data-target="#addServiceModal">Добавить услугу</a>
+      <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#addServiceModal">Добавить услугу</a>
     </li>
   </ul>
 </div>
