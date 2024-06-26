@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->bigInteger('service_id')->unsigned();
             $table->string('title');
             $table->text('description');
-            $table->unsignedSmallInteger('period');
+            $table->string('period');
             $table->string('visit_time');
             $table->foreign('service_id')->references('id')->on('service');
         });

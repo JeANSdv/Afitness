@@ -41,5 +41,11 @@ Route::view('/trainer', 'instructors');
 Route::view('/contact', 'contacts');
 
 Route::get('/category', [ServicesController::class, 'categories']);
-Route::get('/category/one', [ServicesController::class, 'category']);
+Route::get('/category/{id}', [ServicesController::class, 'category']);
+Route::get('/category/services/{id}', [ServicesController::class, 'service']);
+
+Route::view('/adm/usr', 'admin.user');
+Route::view('/adm/srv', 'admin.yslug');
+Route::view('/adm/shf', 'admin.grafik');
+Route::view('/adm/sbs', 'admin.abon');
 

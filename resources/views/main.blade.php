@@ -16,7 +16,7 @@
 <body class="main-bg">
 
     <header>
-        <nav class="navbar navbar-expand-lg py-3 border-bottom border-dark">
+        <nav class="navbar navbar-expand-lg py-3 border-bottom border-dark shadow">
             <div class="container">
                 <a class=" navbar-brand" href="/">
                     <img src="/img/logo-light.png" alt="ApexFitness" width="150">
@@ -60,7 +60,40 @@
 
     @yield('content')
 
-    <footer></footer>
+    <footer class="footer text-white border-top border-dark shadow mt-5 op-bl-bg">
+        <div class="container">
+            <div class="row mt-5 justify-content-center align-items-center">
+                <div class="col-md-4 col-lg-3">
+                    <ul class="list-unstyled">
+                        <h5>Адрес</h5>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Примерная, д. 123, офис 45</li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <h5>Режим работы</h5>
+                        <li><i class="fas fa-map-marker-alt"></i> Пн-Пт: с 9:00 до 21:00</li>
+                        <li><i class="fas fa-phone"></i> Сб-Вс: с 10:00 до 20:00</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-6">
+                    <!-- Пустой блок для выравнивания контента -->
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <ul class="list-unstyled">
+                        <h5>Почта для связи</h5>
+                        <li><i class="fas fa-envelope"></i> <a class="nav-link"
+                                href="mailto:info@fitnessclub.com">apex@fitnessclub.com</a></li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <h5>Наш номер телефона</h5>
+                        <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-white text-center py-3">
+            &copy; 2024 ApexFitness. Все права защищены.
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
