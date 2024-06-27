@@ -6,6 +6,7 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Admin\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,8 +47,9 @@ Route::get('/category/{id}', [ServicesController::class, 'category']);
 Route::get('/category/services/{id}', [ServicesController::class, 'service']);
 Route::post('/subscription/{subId}', [ServicesController::class, 'purchase'])->middleware('auth');
 
-Route::view('/adm/usr', 'admin.user');
-Route::view('/adm/srv', 'admin.yslug');
-Route::view('/adm/shf', 'admin.grafik');
-Route::view('/adm/sbs', 'admin.abon');
+Route::view('/adm/usr', 'admin.user')->middleware('admin');
+Route::view('/adm/shf', 'admin.grafik')->middleware('admin');
+Route::view('/adm/sbs', 'admin.abon')->middleware('admin');
+
+Route::get('/adm/srv', [AdminController::class, 'service'])->middleware('admin');
 

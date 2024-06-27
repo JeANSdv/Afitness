@@ -34,6 +34,16 @@
             <textarea class="form-control" id="serviceDescription" rows="3"
               placeholder="Введите описание услуги"></textarea>
           </div>
+          <div class="form-group">
+            <label for="serviceCategory">Категория</label>
+            <select name="serviceCategory" id="serviceCategory">
+              <option value="1">category</option>
+            </select>
+            <div class="form-group">
+              <label for="serviceImg">Картинка</label>
+              <input type="text" class="form-control" id="serviceImg" placeholder="Введите название услуги">
+            </div>
+          </div>
         </form>
       </div>
       <div class="modal-footer">
@@ -54,8 +64,10 @@
         <thead>
           <tr>
             <th>ID</th>
-            <th>Название услуги</th>
+            <th>Категория</th>
+            <th>Название</th>
             <th>Описание</th>
+            <th>Путь к картинке</th>
             <th>Действие</th>
           </tr>
         </thead>
@@ -63,8 +75,10 @@
           <!-- Пример данных услуги -->
           <tr>
             <td>1</td>
-            <td>Разработка сайтов</td>
-            <td>Создание и поддержка сайтов</td>
+            <td>Категория</td>
+            <td>Название</td>
+            <td>Описание</td>
+            <td>картинка</td>
             <td>
               <a href="#" class="btn btn-sm btn-info" data-toggle="modal" data-target="#viewServiceModal">Просмотр</a>
               <a href="#" class="btn btn-sm btn-warning" data-toggle="modal"
